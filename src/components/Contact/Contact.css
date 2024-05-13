@@ -1,0 +1,107 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.Contact-title{
+    position: relative;
+}
+.Contact-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.Contact-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.Contact-section{
+    display: flex;
+    gap: 150px;
+}
+.Contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Contact-left h1{
+    font-size: 80px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Contact-left p{
+    max-width: 550px;
+    color: #D8D8D8;
+    font-size: 20px;
+    line-height: 35px;
+}
+.Contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #D8D8D8;
+    font-size: 22px;
+}
+.Contact-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.Contact-right label{
+    color: #D8D8D8;
+    font-size: 22PX;
+    font-weight: 500;
+}
+
+.Contact-right input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    font-family: outfit;
+    font-size: 20px;
+}
+
+.Contact-right textarea{
+    width: 650px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: outfit;
+    font-size: 20PX;
+}
+.Contact-submit{
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    font-size: 22PX;
+    padding: 20PX 60PX;
+    margin-bottom: 50PX;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Contact-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
