@@ -54,3 +54,7 @@
 .footer-email-input:hover{
     border: 2px solid white;
 }
+.footer-subscribe:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
