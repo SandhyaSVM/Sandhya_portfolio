@@ -1,11 +1,11 @@
 import React from 'react'
 import './Hero.css'
-import profile_img from '../../assets/profile_img.svg'
+import profile_img from '../../assets/sandhya_img.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 const Hero = () => {
   return (
     <div id='Home' className='Hero'>
-        <img src={profile_img} alt=""/>
+        <img className='profile' src={profile_img} alt=""/>
         <h1><span>I'm Sandhya Peddinti,</span> Frontend developer based in India.</h1>
         <p> I am a frontend developer from bangalore,India with 6 years experience in Cognizant.</p>
         <div className="hero-action">
